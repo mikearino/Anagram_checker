@@ -3,13 +3,13 @@ require './lib/anagram_checker'
 
 puts "Welcome to Anagran Checker! Please enter in your first words!"
 first_word = gets.chomp.gsub(/\s+/, "")
-if first_word.scan(/[aeiouy]/).count < 1
+if first_word.scan(/[aeiouy]/i).count < 1
   p "Please enter valid words"
   return
 else
   puts "Please enter second words!"
   second_word = gets.chomp.gsub(/\s+/, "")
-  if second_word.scan(/[aeiouy]/).count < 1
+  if second_word.scan(/[aeiouy]/i).count < 1
   p "Please enter valid words"
   return
 else

@@ -10,9 +10,9 @@ else
   puts "Please enter second words!"
   second_word = gets.chomp.gsub(/\s+/, "")
   if second_word.scan(/[aeiouy]/i).count < 1
-  p "Please enter valid words"
-  return
-else
+    p "Please enter valid words"
+    return
+  else
   end
 end
 

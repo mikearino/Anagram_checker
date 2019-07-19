@@ -16,7 +16,5 @@ else
   end
 end
 
-
 find_out = AnagramChecker.new(first_word, second_word)
-
 p find_out.word_bot(first_word, second_word)

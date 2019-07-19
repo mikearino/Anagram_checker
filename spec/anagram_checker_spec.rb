@@ -27,4 +27,11 @@ describe('AnagramChecker') do
     expect(AnagramChecker.new("cat rat", "tac tar").word_bot("cat rat", "tac tar")).to(eq("This is an anagram"))
   end
 
+  it('returns is an anagram if first words are equal to second words regardless of punctuation') do
+    expect(AnagramChecker.new("caT raT", "tAc taR").word_bot("caT raT", "tAc taR")).to(eq("This is an anagram"))
+  end
+
+  it('returns is an antigram if first words have no characters that equal the second words') do
+    expect(AnagramChecker.new("re no".gsub(/\s+/, ""), "yu as".gsub(/\s+/, "")).word_bot("re no".gsub(/\s+/, ""), "yu as".gsub(/\s+/, ""))).to(eq("This is an antigram"))
+  end
 end

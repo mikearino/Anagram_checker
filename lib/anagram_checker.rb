@@ -7,7 +7,7 @@ class AnagramChecker
   def word_bot(first_word, second_word)
     if first_word.downcase.split("").sort.join == second_word.downcase.split("").sort.join
       "This is an anagram"
-    elsif first_word.downcase.split("").sort.join.scan(/second_word/) == false
+    elsif first_word.downcase.split("").sort.join.count(second_word.downcase.split("").sort.join) == 0
       "This is an antigram"
     elsif first_word.downcase.split("").sort.join != second_word.downcase.split("").sort.join
       "This is not an anagram"

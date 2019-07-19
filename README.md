@@ -1,13 +1,13 @@
-# Angiogram checker
+# Anagram checker
 
-#### A program for determining if words or phrases are angiograms.
+#### A program for determining if words or phrases are anagrams.
 
 #### By **Mike Lofgren**
 
 ## Description
 
-A program created with Ruby to determine if words or phrases are angiograms.
-A user inputs words and it determines if the words are angiograms or antigrams.
+A program created with Ruby to determine if words or phrases are anagrams.
+A user inputs words and it determines if the words are anagrams or antigrams.
 
 ### Specs
 | Spec                                    | Input                            | Output                                    |
@@ -29,7 +29,7 @@ A user inputs words and it determines if the words are angiograms or antigrams.
 5. Type in "ruby anagram_checker_script.rb" in terminal. Hit enter.
 6. Type in first phrase. Hit enter.
 7. Type in second phrase. Hit enter.
-8. The program will tell you if the word/phrases is an angiogram or antigram.
+8. The program will tell you if the word/phrases is an anagram or antigram.
 
 ## Known Bugs
 * No known bugs at this time.

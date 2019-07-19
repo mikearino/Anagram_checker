@@ -10,4 +10,9 @@ describe('AnagramChecker') do
   it('returns is an anagram if first word is equal to second word') do
     expect(AnagramChecker.new("mat", "mat").word_bot("mat", "mat")).to(eq("This is an anagram"))
   end
+
+  it('returns is an anagram if first word is equal to second word regardless of punctuation') do
+    expect(AnagramChecker.new("Mat", "maT").word_bot("mat", "mat")).to(eq("This is an anagram"))
+  end
+
 end

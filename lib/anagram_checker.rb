@@ -5,10 +5,10 @@ class AnagramChecker
   end
 
   def word_bot(first_word, second_word)
-    if @first_word.casecmp(@second_word) == 0
-      puts "This is an anagram"
-    elsif @first_word.casecmp(@second_word) == 1
-      puts "This is not an anagram"
+    if @first_word.casecmp?(@second_word) == true
+      p "This is an anagram"
+    elsif @first_word.casecmp?(@second_word) == false
+      p "This is not an anagram"
     end
   end
 end

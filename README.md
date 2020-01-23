@@ -4,21 +4,25 @@
 
 #### By **Mike Lofgren**
 
+<p align="center">
+  <img src="ac.gif">
+</p>
+
 ## Description
 
 A program created with Ruby to determine if words or phrases are anagrams.
 A user inputs words and it determines if the words are anagrams or antigrams.
 
 ### Specs
-| Spec                                    | Input                            | Output                                    |
-| :---------------------------------------| :------------------------------- | :---------------------------------------- |
-| The user inputs nothing  |                              | "Please enter valid words"                                     |
-| The user inputs ct for the first word      | ct                             |"Please enter valid words"                             |
-| The user inputs cat for the first word and tar for second word    | cat, tar                              |"This is not an anagram"                            |
-| The user inputs cat for the first word and tac for second word    | cat, tac                              |"This is an anagram"                            |
-|  The user inputs tree for the first word and pop for second word            | tree, pop                             |"This is an antigram"                             |
-| The user inputs cat mad for the first phrase and tac dam for the second phrase    | cat mad, tac dam                             |"This is an anagram"                            |
 
+| Spec                                                                           | Input            | Output                     |
+| :----------------------------------------------------------------------------- | :--------------- | :------------------------- |
+| The user inputs nothing                                                        |                  | "Please enter valid words" |
+| The user inputs ct for the first word                                          | ct               | "Please enter valid words" |
+| The user inputs cat for the first word and tar for second word                 | cat, tar         | "This is not an anagram"   |
+| The user inputs cat for the first word and tac for second word                 | cat, tac         | "This is an anagram"       |
+| The user inputs tree for the first word and pop for second word                | tree, pop        | "This is an antigram"      |
+| The user inputs cat mad for the first phrase and tac dam for the second phrase | cat mad, tac dam | "This is an anagram"       |
 
 ## Setup/Installation Requirements
 
@@ -32,10 +36,12 @@ A user inputs words and it determines if the words are anagrams or antigrams.
 8. The program will tell you if the word/phrases is an anagram or antigram.
 
 ## Known Bugs
-* No known bugs at this time.
+
+- No known bugs at this time.
 
 ## Technologies Used
-  * Ruby
+
+- Ruby
 
 ## Support and contact details
 
@@ -43,6 +49,6 @@ If there are any questions, bugs or concerns, please contact mikeylofgren@gmail.
 
 ### License
 
-*This software is licensed under the MIT license*
+_This software is licensed under the MIT license_
 
 Copyright (c) 2019 **Mike Lofgren**

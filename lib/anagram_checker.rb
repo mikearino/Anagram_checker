@@ -1,4 +1,3 @@
-
 class AnagramChecker
   def initialize (first_word, second_word)
     @first_word = first_word.downcase.split("").sort.join
